@@ -1,0 +1,197 @@
+/* profile_user */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+.profile-container {
+    display: flex;
+    max-width: 1100px;
+    width: 100%;
+    margin: 50px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.profile-sidebar {
+    flex-basis: 30%;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+.avatar-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.avatar-image {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 10px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid #ee4d2d;
+    margin-top: 50px;
+}
+.avatar-image img {
+    width: 100%;
+    height: auto;
+}
+h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.profile-main {
+    flex-grow: 1;
+    padding: 30px;
+    border-left: 1px solid #e7e7e7;
+    background-color: #f9f9f9; 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6;
+}
+.profile-info {
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); 
+}
+.profile-info strong {
+    color: #333;
+    margin-right: 10px; 
+}
+.edit-profile-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #458edc; 
+    color: #fff; 
+    border-radius: 5px;
+    text-decoration: none; 
+    transition: background-color 0.3s; 
+}
+.edit-profile-link:hover {
+    background-color: #458edc; 
+}
+.input-group {
+    margin: 20px 0;
+}
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    transition: border 0.3s ease;
+}
+.input-group input:focus,
+.input-group select:focus {
+    border-color: #ee4d2d;
+    outline: none;
+}
+button {
+    background-color: #ee4d2d;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #d43c20;
+}
+#profile_pic {
+    display: block;
+    margin-top: 20px; 
+    margin-left: 10px;
+}
+ /* lịch sử đơn hàng */
+.order-history-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+}
+.order-history-container h1 {
+    font-size: 24px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.order-history-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.order-history-container table, 
+.order-history-container table th,
+.order-history-container table td {
+    border: 1px solid #ddd;
+}
+.order-history-container table th,
+.order-history-container table td {
+    padding: 12px 15px;
+    text-align: left;
+}
+.order-history-container table tbody tr:nth-child(odd) {
+    background-color: #f7f7f7;
+}
+.order-history-container table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+.pagination {
+    margin: 20px 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.pagination a {
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s;
+}
+.pagination a:hover {
+    background-color: #555;
+    color: #fff;
+}
+.pagination a.active {
+    background-color: #333;
+    color: #fff;
+}
+/* mã giảm giá */
+.promo-container {
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.promo-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.promo-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.promo-container table, .promo-container table th, .promo-container table td {
+    border: 1px solid #ddd;
+}
+.promo-container table th, .promo-container table td {
+    padding: 10px;
+    text-align: left;
+}
+.promo-container table th {
+    background-color: #f7f7f7;
+}
